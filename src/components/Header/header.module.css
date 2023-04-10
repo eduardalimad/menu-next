@@ -1,0 +1,31 @@
+.header{
+    background-color: #CE3246;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 170px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 2rem;
+    margin-right: 5rem;
+    padding: 1rem;
+}
+
+.li{
+    display: inline-flex;
+    gap: 1rem;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-left: 12rem;
+}
+

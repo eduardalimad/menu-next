@@ -1,0 +1,9 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 24px;
+    grid-row-gap: 12px;
+    padding: 5rem;
+    place-items: center;
+}

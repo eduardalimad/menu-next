@@ -1,5 +1,5 @@
 import Header from '@/components/Header/Header'
-import CardMenu from '@/components/CardMenu/CardMenu'
+import CardMenu from '../../components/CardMenu/CardMenu'
 import style from '../home/home.module.scss'
 export default function Categoria() {
   return (

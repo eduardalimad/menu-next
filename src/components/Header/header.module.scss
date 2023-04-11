@@ -1,0 +1,35 @@
+.header {
+    background-color: #CE3246;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 170px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    .navbar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 50px;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        place-items: center;
+
+        .li {
+            display: inline-flex;
+            gap: 0.4rem;
+            margin-left: 2rem;
+        }        
+    }
+    .title {
+        display: flex;
+        align-items: center;
+        margin-left: 12rem;
+    }
+    
+}
+
+
+

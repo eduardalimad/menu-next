@@ -1,4 +1,4 @@
-import style from '../categoria/produtos.module.css'
+import style from '../categoria/produtos.module.scss'
 import CompHeader from '@/components/Header/Header'
 import CardProdutos from '@/components/Card/CardProdutos'
 export default function Produtos(){
@@ -16,7 +16,6 @@ export default function Produtos(){
             <CardProdutos />
             <CardProdutos />
             <CardProdutos />
-
           </div>
         </>
     )

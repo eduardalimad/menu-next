@@ -1,4 +1,4 @@
-import style  from '../Card/cardProdutos.module.css';
+import style  from '../Card/cardProdutos.module.scss';
 import Link from 'next/link'
 
 export default function cardProdutos() {

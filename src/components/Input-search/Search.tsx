@@ -1,4 +1,4 @@
-import style from '../Input-search/search.module.css'
+import style from '../Input-search/search.module.scss'
 
 export default function SearchInput() {
     return (

@@ -2,7 +2,7 @@ import Header from '@/components/Header/Header'
 import Search from '@/components/Input-search/Search'
 import CardMenu from '@/components/CardMenu/cardMenu'
 import CardProdutos from '@/components/Card/CardProdutos'
-import style from '../home/home.module.css'
+import style from '../home/home.module.scss'
 export default function Home() {
   return (
     <>

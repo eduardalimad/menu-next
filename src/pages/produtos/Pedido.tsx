@@ -1,5 +1,5 @@
 import Header from '@/components/Header/Header'
-import style from '../home/home.module.css'
+import style from '../home/home.module.scss'
 export default function Pedido() {
   return (
     <>

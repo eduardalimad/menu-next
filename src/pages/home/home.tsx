@@ -1,6 +1,6 @@
 import Header from '@/components/Header/Header'
 import Search from '@/components/Input-search/Search'
-import CardMenu from '@/components/CardMenu/cardMenu'
+import CardMenu from '@/components/CardMenu/CardMenu'
 import CardProdutos from '@/components/Card/CardProdutos'
 import style from '../home/home.module.scss'
 export default function Home() {
